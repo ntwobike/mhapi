@@ -14,8 +14,8 @@
  - Note: api will run the in the **dev** mode and functional tests will run in the **test** mode 
   ```sh
  $ cd your-favorite-folder
- $ git clone api-repo api
- $ git clone api-behat-repo api-behat-tests
+ $ git clone git@github.com:ntwobike/mhapi.git api
+ $ git clone git@github.com:ntwobike/mhapi-behat.git api-behat-tests
  
  $ # install dependencies for the api
  $ cd api
@@ -65,6 +65,7 @@
  # Run functional tests
  ```sh
  $ cd api-behat-tests
+ $ # change base_url in behat.yml to api url: http://127.0.0.1:8000
  $ ./vendor/bin/behat
  ```
  
