@@ -1,0 +1,10 @@
+fos_rest:
+  body_listener:
+    array_normalizer:
+      service: fos_rest.normalizer.camel_keys
+      forms: true
+  view:
+    view_response_listener:  true
+  format_listener:
+    rules:
+    - { path: ^/api, prefer_extension: true, fallback_format: json, priorities: [ json ] }

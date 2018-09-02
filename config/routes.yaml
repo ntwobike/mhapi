@@ -1,0 +1,4 @@
+#jobs:
+#  type:     rest
+#  resource: App\Controller\JobController\Api
+#  prefix:   /api
