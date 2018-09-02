@@ -1,12 +1,14 @@
- - Introduction
- - Installation
- - Run unit tests
- - Run functional test(written in behat, separate repo)
- - Sample requests in different format
- - Swagger file for the api documentation
+ Symfony 4 Sample api
+ ========================
+ - [Introduction](#introduction) 
+ - [Installation](#installation) 
+ - [Run unit tests](#run-unit-tests) 
+ - [Run functional tests(written in behat, separate repo)](#run-functional-tests) 
+ - [Sample requests in different formats](#sample-requests) 
+ - [Swagger file for the api documentation](#swagger-file-for-the-api-documentation) 
  
  # Introduction
- This project is a bare-metal symfony 4 project. Api currently provide only to create a Job resource.
+ This project is a bare-metal symfony 4 project. Api currently provide only to create a resource Job.
  Installation will show how to run the project via php built-in web server. Assumes there are no any other application using the 8000 port and you have php version > 7.1.0 
  
  # Installation
